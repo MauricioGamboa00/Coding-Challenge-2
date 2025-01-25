@@ -14,3 +14,15 @@ let averageScore = (scores[0] + scores[1] + scores[2] + scores[3] + scores[4])/s
 
 console.log("Updated List of Scores:", scores);
 console.log("Average Of the Scores:",averageScore);
+
+// Task 3 Working With Objects
+let employee = {
+    name: "Mark Hill",
+    age: 29,
+    department: "Marketing",
+    isActive: true
+};
+employee.department = "Sales";
+employee.position = "Associate";
+console.log("Updated Employee Record:", employee);
+
