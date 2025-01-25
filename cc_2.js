@@ -26,3 +26,11 @@ employee.department = "Sales";
 employee.position = "Associate";
 console.log("Updated Employee Record:", employee);
 
+// Task 4 Array of Objects
+let customers = [
+    { name: "Jane Johnson", email: "Janejohnson2@gmail.com", purchaseAmount: 150 },
+    { name: "Tyreek Hill", email: "TyreekHill@gmail.com", purchaseAmount: 340 },
+    { name: "Hank Myers", email: "Hankmyers76@gmail.com", purchaseAmount: 122 }
+]; 
+customers.push({ name: "Walter Black", email: "BlackWalter02@gmail.com", purchaseAmount: 455 });
+console.log("Customer List:", customers)
