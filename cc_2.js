@@ -33,4 +33,17 @@ let customers = [
     { name: "Hank Myers", email: "Hankmyers76@gmail.com", purchaseAmount: 122 }
 ]; 
 customers.push({ name: "Walter Black", email: "BlackWalter02@gmail.com", purchaseAmount: 455 });
-console.log("Customer List:", customers)
+console.log("Customer List:", customers);
+
+// Task 5 Object Methods
+let order = {
+    orderID: 91,
+    customerName: "Frank Ocean",
+    amount: 750,
+    calculateTax: function() {
+        return this.amount * .10;
+    }
+    
+};
+    
+console.log("Order Details:", `Order ID: ${order.orderID}, Customer: ${order.customerName}, Amount: ${order.amount}, Tax: ${order.calculateTax()}`);
